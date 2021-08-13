@@ -1,0 +1,30 @@
+load csv with headers from "file:///DimCategories.csv" as row CREATE (g:DimCategories) SET g= row{CategoryKey:row.CategoryKey,
+CategoryName:row.CategoryName}
+return g
+
+load csv with headers from "file:///DimProduct.csv" as row CREATE (a:DimProduct) SET a= row{ProductKey:row.ProductKey,
+ProductName:row.ProductName,
+SupplierID:row.SupplierID,
+CategoryID:row.CategoryID,
+QuantityPerUnit:row.QuantityPerUnit,
+UnitPrice:row.UnitPrice,
+UnitsInStock:row.UnitsInStock,
+UnitsOnOrder:row.UnitsOnOrder,
+ReorderLevel:row.ReorderLevel,
+Discontinued:row.Discontinued}
+return a
+
+load csv with headers from "file:///DimEmployees.csv" as row CREATE (b:DimEmployees) SET b= row{EmployeeKey:row.EmployeeKey,
+LastName:row.LastName,
+FirstName:row.FirstName,
+Title:row.Title,
+TitleOfCourtesy:row.TitleOfCourtesy,
+Address:row.Address,
+City:row.City,
+Region:row.Region,
+PostalCode:row.PostalCode,
+Country:row.Country,
+HomePhone:row.HomePhone,
+Extension:row.Extension,
+ReportsTo:row.ReportsTo}
+return b

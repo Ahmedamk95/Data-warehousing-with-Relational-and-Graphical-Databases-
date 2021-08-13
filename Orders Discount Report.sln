@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Orders Discount Report", "Orders Discount Report\Orders Discount Report.rptproj", "{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.Debug|Default.ActiveCfg = Debug
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.Debug|Default.Build.0 = Debug
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.Debug|Default.Deploy.0 = Debug
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.DebugLocal|Default.Build.0 = DebugLocal
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.Release|Default.ActiveCfg = Release
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.Release|Default.Build.0 = Release
+		{115A3DE2-D2D1-4F66-9115-5B2252B1DFC6}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {045DD2F5-747D-4283-83F2-CF960FDA5C95}
+	EndGlobalSection
+EndGlobal
